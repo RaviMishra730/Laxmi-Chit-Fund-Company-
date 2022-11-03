@@ -10,7 +10,7 @@ const Footer = () => {
             <h4>Follow Us</h4>
             <div>
                 <a href="https://youtube.com">YouTube</a>
-                <a href="https://instagram/ravi_730">Instagram</a>
+                <a href="https://www.instagram.com/ravi_730/">Instagram</a>
                 <a href="https://github.com/ravimishra730">GitHub</a>
             </div>
         </div>

@@ -10,6 +10,7 @@ import "./style/header.scss";
 import "./style/Home.scss";
 import "./style/footer.scss";
 import "./style/Contact.scss";
+import "./style/MediaQuery.scss";
   
 function App() {
   return <Router>
