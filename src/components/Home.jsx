@@ -31,7 +31,7 @@ const Home = () => {
             </div>
             <div className="home4" id='brands'>
                 <div>
-                    <h1>Brands</h1>
+                    <h1>Our Investers</h1>
                     <article>
                         <div style={{
                             animationDelay: "0.3s",
