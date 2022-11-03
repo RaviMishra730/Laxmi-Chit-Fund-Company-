@@ -7,11 +7,15 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    background-color: $first;
+    background-color: rgb(78, 78, 180);
     top: 0%;
+    z-index: 999999;
 
     >h1{
-        text-transform: uppercase;;
+        text-transform: uppercase;
+        text-overflow: hidden;
+        font-family: "Helvetica Neue";
+
     }
     >main{
         width: 70%;

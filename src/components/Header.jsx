@@ -4,13 +4,13 @@ import { HashLink } from "react-router-hash-link";
 const Header = () => {
     return (
         <nav>
-            <h1>Luxmi Chit Fund Company</h1>
+            <h1>Laxmi Chit Fund Company</h1>
             <main>
                 <HashLink to = {"/#home"}>Home</HashLink>
                 <Link to = {"/contact"}>Contact</Link>
                 <HashLink to = {"/#about"}>About</HashLink>
-                <HashLink to = {"/#brands"}>Brands</HashLink>
-                <HashLink to = {"/services"}>Services</HashLink>
+                {/* <HashLink to = {"/#brands"}>Brands</HashLink> */}
+                <HashLink to = {"/services"}>Founders</HashLink>
             </main>
       </nav>
   )

@@ -6,8 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -99999;
     >main{
-        background-color:$first;
+        background-color:rgb(151, 173, 193);
         height: 40rem;
         width: 70%;
         padding: 3rem;

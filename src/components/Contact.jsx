@@ -7,15 +7,15 @@ const Contact = () => {
             <form>
                 <div>
                     <label>Name </label>
-                    <input type="text" required placeholder='abc'/>
+                    <input type="text" required placeholder='Raju Bhai'/>
                 </div>
                 <div>
                     <label>Email </label>
-                    <input type="email" required placeholder='abc@mail.com'/>
+                    <input type="email" required placeholder='rajubhai@chitfund.com'/>
                 </div>
                 <div>
                     <label>Message </label>
-                    <input type="text" required placeholder='tell us about your query......'/>
+                    <input type="text" required placeholder='Only Cash No Check...'/>
                 </div>
                 <button type='submit'>Send</button>
             </form>
