@@ -1,11 +1,15 @@
 import React from 'react';
+import totlatiwari from "../assets/totlatiwari.jpg";
+import nangbhai from "../assets/nangbhai.jpg";
+import kachraseth from "../assets/kachraseth.jpg";
+import munnabhai from "../assets/munnabhai.jpg";
 // import vg from "../assets/2.webp";
-import {
-    AiFillGoogleCircle,
-    AiFillAmazonCircle,
-    AiFillYoutube,
-    AiFillInstagram,
-} from "react-icons/ai";
+// import {
+//     AiFillGoogleCircle,
+//     AiFillAmazonCircle,
+//     AiFillYoutube,
+//     AiFillInstagram,
+// } from "react-icons/ai";
 const Home = () => {
     return (
         <>
@@ -36,26 +40,32 @@ const Home = () => {
                         <div style={{
                             animationDelay: "0.3s",
                         }}>
-                            <AiFillGoogleCircle/>
-                            <p>Google</p>
+                            <img src={totlatiwari} alt="totlatiwari" height={60}/>
+                            {/* <AiFillGoogleCircle/> */}
+                            <p>Totla Tiwari</p>
                         </div>
                         <div style={{
                             animationDelay: "0.5s",
                         }}>
-                            <AiFillAmazonCircle/>
-                            <p>Amazon</p>
+                            {/* <AiFillAmazonCircle/> */}
+                            <img src={nangbhai} alt="totlatiwari" height={80}/>
+
+                            <p>NaN-G Bhai</p>
                         </div>
                         <div style={{
                             animationDelay: "0.7s",
                         }}>
-                            <AiFillYoutube/>
-                            <p>YouTube</p>
+                            {/* <AiFillYoutube/> */}
+                            <img src={kachraseth} alt="totlatiwari" height={90}/>
+                            <p>Kachra Seth</p>
                         </div>
                         <div style={{
                             animationDelay: "1s",
                         }}>
-                            <AiFillInstagram/>
-                            <p>Instagram</p>
+                            {/* <AiFillInstagram/> */}
+                            <img src={munnabhai} alt="totlatiwari" height={60}/>
+
+                            <p>Munna Bhai</p>
                         </div>
                     </article>
                 </div>
